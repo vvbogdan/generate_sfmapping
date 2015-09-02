@@ -1,0 +1,201 @@
+{
+   "GetCaseSummaryResult":[
+      {
+         "Defendants":[
+            {
+               "Adjuster":"",
+               "AdjusterPhone":null,
+               "AdjusterPhoneExtension":null,
+               "FullName":"",
+               "IncuranceCo":null,
+               "IncuranceCoType":null,
+               "LawFirm":null,
+               "LawFirmAttorney":"",
+               "LawFirmAttorneyPhone":null,
+               "Phone":null,
+               "PhoneExtension":"",
+               "Role":"(D)-Distributor"
+            },
+            {
+               "Adjuster":"",
+               "AdjusterPhone":null,
+               "AdjusterPhoneExtension":null,
+               "FullName":"",
+               "IncuranceCo":null,
+               "IncuranceCoType":null,
+               "LawFirm":null,
+               "LawFirmAttorney":"",
+               "LawFirmAttorneyPhone":null,
+               "Phone":null,
+               "PhoneExtension":"",
+               "Role":"(D)-Manufacturer"
+            },
+            {
+               "Adjuster":"",
+               "AdjusterPhone":null,
+               "AdjusterPhoneExtension":null,
+               "FullName":"",
+               "IncuranceCo":null,
+               "IncuranceCoType":null,
+               "LawFirm":null,
+               "LawFirmAttorney":"",
+               "LawFirmAttorneyPhone":null,
+               "Phone":null,
+               "PhoneExtension":"",
+               "Role":"(D)-General Contractor"
+            },
+            {
+               "Adjuster":"",
+               "AdjusterPhone":null,
+               "AdjusterPhoneExtension":null,
+               "FullName":"",
+               "IncuranceCo":null,
+               "IncuranceCoType":null,
+               "LawFirm":null,
+               "LawFirmAttorney":"",
+               "LawFirmAttorneyPhone":null,
+               "Phone":null,
+               "PhoneExtension":"",
+               "Role":"(D)-MUN Premises Owner"
+            },
+            {
+               "Adjuster":"",
+               "AdjusterPhone":null,
+               "AdjusterPhoneExtension":null,
+               "FullName":"",
+               "IncuranceCo":null,
+               "IncuranceCoType":null,
+               "LawFirm":null,
+               "LawFirmAttorney":"",
+               "LawFirmAttorneyPhone":null,
+               "Phone":null,
+               "PhoneExtension":"",
+               "Role":"(D)-Premises Owner"
+            },
+            {
+               "Adjuster":"",
+               "AdjusterPhone":null,
+               "AdjusterPhoneExtension":null,
+               "FullName":"",
+               "IncuranceCo":null,
+               "IncuranceCoType":null,
+               "LawFirm":null,
+               "LawFirmAttorney":"",
+               "LawFirmAttorneyPhone":null,
+               "Phone":null,
+               "PhoneExtension":"",
+               "Role":"(D)-Tenant"
+            },
+            {
+               "Adjuster":"",
+               "AdjusterPhone":null,
+               "AdjusterPhoneExtension":null,
+               "FullName":"",
+               "IncuranceCo":null,
+               "IncuranceCoType":null,
+               "LawFirm":null,
+               "LawFirmAttorney":"",
+               "LawFirmAttorneyPhone":null,
+               "Phone":null,
+               "PhoneExtension":"",
+               "Role":"(D)-Operator"
+            },
+            {
+               "Adjuster":"",
+               "AdjusterPhone":null,
+               "AdjusterPhoneExtension":null,
+               "FullName":"",
+               "IncuranceCo":null,
+               "IncuranceCoType":null,
+               "LawFirm":null,
+               "LawFirmAttorney":"",
+               "LawFirmAttorneyPhone":null,
+               "Phone":null,
+               "PhoneExtension":"",
+               "Role":"(D)-Default Role"
+            }
+         ],
+         "IncidentFacts":[
+            {
+               "IncidentFacts":"NET Imported: 05\/08\/03 User: MJH\u000d\u000aAsbestos Intake - YL\u000d\u000a\u000d\u000aTitle:\u0009Mr.\u000d\u000aFirst Name:\u0009Allen\u000d\u000aMI:\u0009H.\u000d\u000aLast Name:\u0009Bulkley, Jr.\u000d\u000aEmail:\u0009popskb@yahoo.com\u000d\u000aPhone:\u0009607-594-3608\u000d\u000aWork Phone:\u0009\u000d\u000aMobile Phone:\u0009607-857-1629\u000d\u000aAddress:\u00091931 Co. Rte. 15\u000d\u000aCity:\u0009Odessa\u000d\u000aState:\u0009NY\u000d\u000aZip:\u000914869\u000d\u000aKurt Bishoff is Son-In-Law  His Cell phone number is  607-857-1629\u000d\u000a\u000d\u000aBest Way to Contact:\u0009I will be out of town from 5\/8 through 5\/12 but you can ì\u000acall my cell phone.  The person named above is my 85 y\/o father-in-law was ì\u000a"
+            }
+         ],
+         "Information":[
+            {
+               "CaseID":1939,
+               "CaseMinValue":null,
+               "CaseName":"Bulkley",
+               "CaseNumber":"311991",
+               "CaseState":"New York",
+               "CaseSubType":null,
+               "CaseType":"Asbestos - Not Death",
+               "CaseValueComments":"New York",
+               "CaseValueFrom":null,
+               "CaseValueTo":null,
+               "CloseDate":"06\/06\/2011",
+               "ExpResolutionDate":null,
+               "IncidentDate":null,
+               "LiabilityCode":null,
+               "OfficeName":"Port Washington",
+               "OpenDate":"05\/08\/2003",
+               "RetainerDate":"12\/31\/2003",
+               "SOLDate":null,
+               "Settlement":90000.00,
+               "TotalLiability":null,
+               "WantedAcceptedDate":null
+            }
+         ],
+         "Plaintiffs":[
+            {
+               "Adjuster":"",
+               "AdjusterPhone":null,
+               "AdjusterPhoneExtension":null,
+               "FullName":"Bulkley, Allen H., Jr.",
+               "IncuranceCo":null,
+               "IncuranceCoType":null,
+               "Phone":"6075943608",
+               "PhoneExtension":null,
+               "Role":"(P)-Worker"
+            },
+            {
+               "Adjuster":"",
+               "AdjusterPhone":null,
+               "AdjusterPhoneExtension":null,
+               "FullName":"Bishoff, Kurt",
+               "IncuranceCo":null,
+               "IncuranceCoType":null,
+               "Phone":"(607) 594-3608",
+               "PhoneExtension":null,
+               "Role":"(P)-Guardian"
+            },
+            {
+               "Adjuster":"",
+               "AdjusterPhone":null,
+               "AdjusterPhoneExtension":null,
+               "FullName":"Bishoff, Kurt",
+               "IncuranceCo":null,
+               "IncuranceCoType":null,
+               "Phone":"(607) 594-3608",
+               "PhoneExtension":null,
+               "Role":"(P)-Guardian"
+            }
+         ],
+         "Staff":[
+            {
+               "ContactID":56037,
+               "FullName":"O'Connor, Kathleen",
+               "RoleDescription":"Primary Paralegal"
+            }
+         ],
+         "Statuses":[
+            {
+               "Comments":null,
+               "FromDate":"06\/06\/2011",
+               "NoDays":1549,
+               "StatusDescription":"Closed Case",
+               "StatusType":"Status"
+            }
+         ]
+      }
+   ]
+}

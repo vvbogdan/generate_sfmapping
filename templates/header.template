@@ -1,0 +1,13 @@
+//
+// #TEMPLATE_CLASS_NAME#.h
+//
+//  Created by Vitalii Bogdan.
+//  Copyright (c) 2015. All rights reserved.
+
+#TEMPLATE_CUSTOM_CLASSES#
+
+@interface #TEMPLATE_CLASS_NAME# : NSObject
+
+#TEMPLATE_PROPERTIES#
+
+@end

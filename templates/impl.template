@@ -1,0 +1,27 @@
+//
+// #TEMPLATE_CLASS_NAME#.m
+//
+//  Created by Vitalii Bogdan.
+//  Copyright (c) 2015. All rights reserved.
+
+#import "#TEMPLATE_CLASS_NAME#.h"
+#import "SFMapping.h"
+#import "NSObject+SFMapping.h"
+
+#TEMPLATE_IMPORT_CLASSES#
+
+@interface #TEMPLATE_CLASS_NAME#()
+
+@end
+
+@implementation #TEMPLATE_CLASS_NAME#
+
++ (void)initialize {
+    if (self == [#TEMPLATE_CLASS_NAME# class]) {
+        [self setSFMappingInfo:
+        		#TEMPLATE_MAP_PROPERTIES#
+                        nil];
+    }
+}
+
+@end
