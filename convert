@@ -1,0 +1,29 @@
+#!/bin/sh
+
+#  convert.sh
+#  AutomaticConvert
+#
+
+JSON_PATH=$1
+
+if [ ! $JSON_PATH ]; then
+  echo "Icorrect usage"
+  echo "Use this command in next format: "
+  echo "  convert <json file> <sufix for some files, optional> <output path, optional>"
+  echo " "
+  echo " Exampes :"
+  echo "   convert data.json"
+  echo "   convert data.json SA ./path/output"
+  exit 1
+fi
+
+
+start=$SECONDS
+
+php -f ./convert.php ${JSON_PATH} $2 $3
+if [ "$?" -ne "0" ]; then
+  exit 1
+fi
+
+end=$SECONDS
+echo "Total script time: $((end - start)) secs."
