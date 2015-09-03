@@ -72,10 +72,16 @@ function saveHeaderFile($name, $meta_data_class) {
 	$classes = "";
 
 	foreach ($meta_data_class as $meta) {
-		$inner = $meta->type == 'BOOL' ? 'assign' : 'strong';
 		$name = parameterName($meta);
 		$currentClass = className($meta->name);
-		$properties .= "@property (nonatomic, {$inner}) {$meta->type} * {$name};\n";
+		$type = ($meta->is_collection == true) ? "NSArray" : $meta->type;
+		$property = "";
+		if ( $meta->type == 'BOOL' ) {
+			$property = "@property (nonatomic, assign) BOOL {$name};\n";
+		} else {
+			$property = "@property (nonatomic, strong) {$type} * {$name};\n";
+		}
+		$properties .= $property;
 
 		if ( !in_array($meta->type, $GLOBALS['system_types']) ) {
 			$classes .= "@class {$currentClass};\n";
