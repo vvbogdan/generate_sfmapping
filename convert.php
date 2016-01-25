@@ -15,7 +15,9 @@ $global_clases = array();
 
 function makeMetaData($class, $json) {
 	$classObject = array();
+
 	foreach ($json as $key => $object) {
+		
 		$propery = new stdClass();
 		$propery->name = $key;
 		$propery->is_collection = false;
@@ -24,13 +26,16 @@ function makeMetaData($class, $json) {
 		if ( is_array($object) ) {
 			$propery->type = className($key);
 			$propery->is_collection = true;
-			makeMetaData($key, $object[0]);
+			makeMetaData($key, array_values($object)[0]);
 		} elseif (is_numeric($object)) {
 			$propery->type = "NSNumber";
 		} elseif (is_bool($object)) {
 			$propery->type = "BOOL";
 		} elseif (is_string($object)) {
 			$propery->type = "NSString"; 
+		} elseif (is_object($object)) {
+			$propery->type = className($key);
+			makeMetaData($key, $object);
 		} else {
 			$propery->type = "NSString"; 
 		}	
@@ -141,7 +146,7 @@ if ( $path_result && !file_exists($path_result) ) {
 }
 
 $string = file_get_contents($file_name);
-$json = json_decode($string, true);
+$json = json_decode($string, false);
 
 makeMetaData("Main", $json);
 
